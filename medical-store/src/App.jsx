@@ -13,10 +13,10 @@ const App = () => {
                 <Routes>
                     <Route element={<WebLayout />}>
                         <Route path='/' element={<Home />} />
-                       
-                      
+                        <Route path='/medicine' element={Medicine } />
+                        <Route path='/contact' element={<Contact />} />
                       </Route>
-                        </Routes>
+                  </Routes>
             </BrowserRouter>
         </>
  
